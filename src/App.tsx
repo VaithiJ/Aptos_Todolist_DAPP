@@ -146,7 +146,7 @@ function App() {
     try {
       const TodoListResource = await provider.getAccountResource(
         account?.address,
-        `${moduleAddress}::todolist::TodoList`
+        `${moduleAddress}::todolist::Todolist`
       );
       setAccountHasList(true);
           // tasks table handle
